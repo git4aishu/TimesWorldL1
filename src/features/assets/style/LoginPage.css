@@ -1,0 +1,31 @@
+.container {
+  margin-top: 5%;
+}
+.mb-3 {
+  border-style: solid;
+  border-width: thin;
+}
+.btn {
+  background-color: darkslategrey;
+  width: 100%;
+
+  margin-top: 20px;
+}
+.label {
+  margin-top: 3%;
+
+  text-align: center;
+}
+
+.login-error-span {
+  color: red;
+}
+.img {
+  width: 267px;
+  height: 426px;
+}
+@media (max-width: 768px) {
+  .img {
+    display: none;
+  }
+}
